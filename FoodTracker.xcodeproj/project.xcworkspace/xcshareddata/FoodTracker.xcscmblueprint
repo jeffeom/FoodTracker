@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75B45A824A0BE49F674B6B56DF63D0D6D3EC5134",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "75B45A824A0BE49F674B6B56DF63D0D6D3EC5134" : 0,
+    "198491D51858A14A51297DC31D2AE31251C02D6B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C75E5409-052F-4372-AEAE-E880AA60419A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "75B45A824A0BE49F674B6B56DF63D0D6D3EC5134" : "FoodTracker\/",
+    "198491D51858A14A51297DC31D2AE31251C02D6B" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoodTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FoodTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeffeom\/obj_c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "198491D51858A14A51297DC31D2AE31251C02D6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeffeom\/FoodTracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75B45A824A0BE49F674B6B56DF63D0D6D3EC5134"
+    }
+  ]
+}

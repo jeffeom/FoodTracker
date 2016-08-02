@@ -33,6 +33,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         checkValidMealName()
     }
+
     
     // MARK: UITextFieldDelegate
     

@@ -40,6 +40,22 @@ class MealTableViewController: UITableViewController {
         }
     }
     
+    override func viewDidAppear(animated: Bool) {
+        
+        print(NSUserDefaults.standardUserDefaults().objectForKey("name"))
+        
+        //check if user has saved credentials
+        if let _ = NSUserDefaults.standardUserDefaults().objectForKey("token"){
+//            NSUserDefaults.standardUserDefaults().removeObjectForKey("token")
+            return
+        }else{
+//            let pushVC = storyboard?.instantiateViewControllerWithIdentifier("SignUp")
+//            self.presentViewController(pushVC!, animated: true, completion: nil)            
+            self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("LogIn") as UIViewController, animated: true)
+        }
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
